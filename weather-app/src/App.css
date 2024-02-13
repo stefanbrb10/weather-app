@@ -1,0 +1,78 @@
+*{
+  margin: 2px;
+  box-sizing:  border-box;
+}
+
+h3{
+  padding: 3px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+h5{
+  padding-left: 3px;
+  color: grey;
+}
+
+.weatherCard{
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.weatherTitle{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  color: #f5f5f5;
+  background-color: #333;
+  padding: 10px;
+}
+
+.ReactModal__Overlay{
+  background-color: rgba(0,0,0,0.5);
+}
+
+.ReactModal__Content{
+  color: lightsteelblue;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  overflow: auto;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ReactModal__Content h2{
+  color: #333;
+  
+}
+
+.ReactModal__Content > p:hover {
+  color: blue;
+}
+
+.ReactModal__Content .closeModal{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  text-decoration: none;
+}
+
+.locationHeader:hover{
+  color: blue;
+}
